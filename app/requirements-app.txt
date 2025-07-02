@@ -1,0 +1,8 @@
+# Streamlit app requirements
+pandas==2.3.0
+numpy==2.0.2
+rdkit==2025.3.3
+joblib==1.5.1
+streamlit==1.46.1
+pillow>=8.0.0
+watchdog>=2.0.0

@@ -1,0 +1,18 @@
+# Byte-compiled / env files
+__pycache__/
+*.pyc
+.env
+.env.*
+.venv/
+env/
+*.egg-info/
+
+# Data
+data/raw/
+data/processed/
+
+# Models
+models/
+
+# Submission
+Submission.csv
