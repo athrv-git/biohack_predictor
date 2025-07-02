@@ -57,8 +57,8 @@ Model inference is handled by:
 
 ## 📊 3. Output
 
-- The **best model** (selected based on MAE): _e.g., XGBoost_
-- **Best MAE** on hold-out set: _reported in console during training (e.g., 0.2567)_
+- The **best model** (selected based on MAE): Random Forest
+- **Best MAE** on hold-out set: _reported in console during training: Random Forest MAE = 0.4839
 - Final predictions are saved in: `Submission.csv`
 
 ---
@@ -102,7 +102,7 @@ python src/models/predict.py \
 
 ---
 
-### 🌐 Run Streamlit App (Optional)
+### 🌐 Run Streamlit App
 
 ```bash
 cd app
